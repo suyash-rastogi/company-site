@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2676538428.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./script.js">
+    
+    </script>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="header container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <img class="brand-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9E27uJbGfFmg7E9-Dqh8YsqKQLJ0Pmx1zeA&usqp=CAU" alt="">
+            <a class="navbar-brand" href=""><h1>MORGAN</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cont-id">Contact Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About Us
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./about/ac.html">About Company</a>
+                    <a class="dropdown-item" href="./about/ov.html">Our Vision</a>
+                    <a class="dropdown-item" href="./about/om.html">Our Mission</a>
+                    <a class="dropdown-item" href="./about/ov.html">Our Values</a>
+                  </div>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </div>
+    
+
+
+    <div class="container-fluid body">
+    <div class="row">
+        <div class="col-lg-8 left">
+          <div id="testimonial-carousel" class="carousel slide" data-ride="false" keyboard="true" >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="cimg" src="https://slidemodel.com/wp-content/uploads/01-company-profile-present-cover-01.png" alt="">
+              </div>
+              <div class="carousel-item">
+                <img class="cimg" src="https://www.slideteam.net/media/catalog/product/cache/1280x720/e/x/expenditure_powerpoint_presentation_slides_Slide01.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                <img class="cimg" src="data:image/jpeg;base64,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" alt="">
+              </div>
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+            </div>
+          </div>
+            
+              <div class="row card-service">
+                <div class="col-lg-12" id="serv-id"><h1>OUR SERVICES</h1></div>
+                <div class="col-lg-4">
+                <div class="card card-box-service">
+                  <div class="card-header">
+                    <h3>Service 1</h3>
+                  </div>
+                  <div class="card-body">
+                    <img class="service-image" src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" class="simg" alt="s1">
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est porro facere excepturi quis ipsa quae praesentium. Quidem ab debitis possimus, soluta ex officiis quia doloremque delectus incidunt corporis hic. Nisi aut rerum maxime, totam iure unde soluta neque odit quasi a deserunt sint amet placeat ullam quod, vero, error saepe?</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card card-box-service">
+                  <div class="card-header">
+                    <h3>Service 2</h3>
+                  </div>
+                  <div class="card-body">
+                    <img class="service-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROOoqiENAUIRIRiKDd9lBNa5RIHagNuy2e2G9n31r-0MlX6_WinnuxDhzX32ORFwOp7nU&usqp=CAU" class="simg" alt="s2">
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quas totam, aliquam est nostrum fuga a placeat cum provident ut vel cumque rem sapiente libero corporis nulla explicabo quibusdam voluptate quam quasi. Autem, cumque quisquam? Mollitia saepe quaerat, expedita placeat facere reiciendis ut quisquam exercitationem porro omnis, quis molestiae earum!</span>
+                  </div>
+                </div>
+              </div>
+                <div class="col-lg-4"> 
+                <div class="card card-box-service">
+                  <div class="card-header">
+                    <h3>Service 3</h3>
+                  </div>
+                  <div class="card-body">
+                    <img class="service-image" src="https://camo.githubusercontent.com/298419aa9b412e4f8ba0eb12bb945732b5137af69594a3cb081fb2a5f43a15bf/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f70726f6772616d6d696e672d6c616e6775616765732d6c6f676f732f7372632f6a6176617363726970742f6a6176617363726970742e706e67" class="simg" alt="s3">
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quasi magnam optio officia laudantium in ex quae recusandae, quaerat vel tenetur nemo dolor aperiam? Perferendis at quae amet ipsam impedit illo quidem reprehenderit suscipit quisquam corrupti omnis, dolore quis, quos saepe eligendi incidunt minima ut vero eaque mollitia voluptate et.</span>
+                  </div>
+                </div>
+              </div>
+              </div>
+              
+
+              <div class="row about">
+                <div class="col-lg-12">
+                    <h3>
+                        ABOUT US
+                    </h3>
+                </div>
+                <div class="col-lg-4">
+                <div class="card card-about-us">
+                  <div class="card-body about-img">
+                    <img class="about-image" src="https://img.freepik.com/free-photo/about-us-information-service-sharing-join-concept_53876-124056.jpg?w=2000" class="simg" alt="s1">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="card card-about-us">
+                  <div class="card-body">                
+                    <div class="ohidden" id="oh">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quidem iusto facilis velit ipsam nisi corrupti ea voluptates quasi sequi, quibusdam aliquid, ipsa temporibus praesentium mollitia harum voluptate officia rem provident est voluptatem! Similique in ex voluptate officia, quam quibusdam, dolorum, omnis unde iste ratione ipsam reprehenderit tempora iure mollitia corrupti voluptatibus nam molestiae non adipisci perferendis odio. Saepe, assumenda atque nulla quidem libero sit repellat reprehenderit sunt, nobis perferendis iure blanditiis earum qui laboriosam deserunt excepturi veritatis quibusdam quis quasi architecto adipisci quos? Animi, tenetur iusto quis fugit voluptate sit neque pariatur et eveniet, praesentium error, tempore consequatur cumque at magnam voluptatem! Voluptates nostrum, commodi doloribus excepturi illo, ipsum eveniet quod hic aperiam dolore deserunt quis. Placeat, repellendus. Praesentium culpa suscipit cum minus similique voluptates! Deserunt reprehenderit itaque voluptatum alias perspiciatis dolorem commodi tempore molestiae mollitia iusto, quibusdam eius praesentium possimus, non, a dolores maxime quod totam dolor vero eligendi officiis. Nam natus, reiciendis animi soluta optio illum recusandae incidunt, aliquid perspiciatis fuga quo quaerat eaque dolore earum minus unde ipsum. Dolor, nobis id est vel, eveniet veritatis magnam ipsa, qui odio animi accusantium earum temporibus! Quis sint quas, harum quos a maiores quidem velit laudantium odit vero nemo corporis tenetur ducimus quibusdam error qui optio dolor dolore distinctio sequi excepturi provident. Eius sapiente nisi cupiditate aut soluta asperiores saepe maxime explicabo, ullam praesentium id iure animi doloribus? Porro, beatae aliquid. Perspiciatis nam tenetur, explicabo est dicta quas beatae facilis incidunt, assumenda quam cum porro quis inventore neque magnam ullam ea deleniti repudiandae nemo esse mollitia. Beatae atque ut et totam porro maxime veniam hic, soluta magni nemo cupiditate a cum unde pariatur esse voluptas sapiente sed! Vitae, assumenda officia! Quasi atque quaerat sit laborum eveniet animi, amet unde fugit laboriosam ab molestiae culpa omnis nemo debitis voluptas, illo ad quibusdam! Culpa adipisci pariatur corrupti, consequatur nesciunt accusantium? Debitis esse quo, tempora asperiores eveniet aspernatur quae numquam beatae. Quibusdam ex odio soluta non expedita, repellendus voluptates similique sed enim dignissimos adipisci. Molestiae soluta sapiente consectetur consequatur similique ex expedita alias. Iste sequi ullam, nulla voluptatum ducimus sapiente, alias, quaerat asperiores tempore natus nihil officia suscipit deserunt! Minima, voluptatibus officia? Beatae delectus deserunt incidunt! Iusto eum, officiis voluptas tempore earum laborum et necessitatibus, aliquam ipsam est consectetur exercitationem ipsa ad, nobis cupiditate a quam eius qui excepturi. Quidem iure in veniam vel saepe autem ipsa, modi quos esse ducimus voluptate reprehenderit. Numquam aspernatur, autem adipisci iste maxime explicabo error ex quia, ducimus deleniti impedit voluptas harum pariatur amet voluptates earum quasi distinctio eligendi. Ratione odio illum facilis molestiae quod impedit, dicta fuga reprehenderit eum asperiores et ea pariatur. Expedita, quidem repellat tempora facilis reiciendis ex quo libero blanditiis, quis fugit quisquam nisi est doloribus eum quod vitae dolores quam ratione repellendus voluptas nam aliquam itaque? Est, fugiat, vero dolorem nobis ullam ad enim similique corporis natus qui obcaecati et minima, impedit mollitia illo! Hic provident facere eum error iure facilis quas ipsa? Blanditiis, dignissimos nisi magni impedit omnis iste distinctio!Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quas totam, aliquam est nostrum fuga a placeat cum provident ut vel cumque rem sapiente libero corporis nulla explicabo quibusdam voluptate quam quasi. Autem, cumque quisquam? Mollitia saepe quaerat, expedita placeat facere reiciendis ut quisquam exercitationem porro omnis, quis molestiae earum!
+                    </div>
+                    <div class="btn-div">
+                    <button type="button" onclick="return over()" id="btn-rm" class="btn btn-sm btn-outline-success">Read More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              
+        </div>
+        <div class="col-lg-4 right">
+            <div class="row">
+                <div class="col-lg-12 l1">
+                    <h3 style="margin-bottom: 5%;">Enquiry Form</h3>
+                    <form action="mailto:xyz@abc.com" name="myform" enctype="text/plain" method="post" onsubmit="return validate()">
+                      <div class="form-group input-control">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input name="Name" type="text" class="form-control name-input" id="exampleFormControlInput1" placeholder="Enter your name...">
+                        <div class="error-box" id="name-error"></div>
+                      </div>
+                        <div class="form-group input-control">
+                          <label for="exampleFormControlInput1">Email</label>
+                          <input name="Email" type="text" class="form-control email-input" id="exampleFormControlInput1" placeholder="name@example.com">
+                          <div class="error-box" id="email-error"></div>
+                        </div>
+                        <div class="form-group input-control">
+                          <label for="exampleFormControlInput1">Mobile No.</label>
+                          <input name="Mobile" oninput="restrictToNumbers(event)" type="text" class="form-control mob-input" id="exampleFormControlInput1" placeholder="Enter Mobile No...">
+                          <div class="error-box"  id="mob-error"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1">Select Service</label>
+                          <select required name="Service" class="form-control" id="exampleFormControlSelect1">
+                            <option checked>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Message</label>
+                          <textarea placeholder="Enter your message...." name="Message" class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-md btn-outline-success">Submit</button>
+                      </form>
+                </div>
+                <div class="col-lg-12 l2">
+                  <div class="container">
+                    <h4>Related Services</h3>
+                    <div class="row serv">
+                      <div class="col-lg-4 lc">
+                        <img src="https://static.vecteezy.com/system/resources/previews/002/552/604/original/coding-language-development-internet-web-technology-interface-line-and-fill-style-icon-free-vector.jpg" alt="">
+                      </div>
+                      <div class="col-lg-8 lc">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit expedita odio eos hic obcaecati et consequuntur quam sapiente quis, fuga, quasi asperiores nam? Ex, facilis.
+                      </div>
+                    </div>
+                    <div class="row serv">
+                      <div class="col-lg-4 lc">
+                        <img src="https://banner2.cleanpng.com/20180514/ae/kisspng-web-development-laptop-computer-programming-softwa-5af978bd130269.0600777115262988130779.jpg" alt="">
+                      </div>
+                      <div class="col-lg-8 lc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, ipsa perspiciatis nam nostrum ex voluptatum doloremque nesciunt ullam aspernatur temporibus!
+                      </div>
+                    </div>
+                    <div class="row serv">
+                      <div class="col-lg-4 lc">
+                        <img src="https://nexwebsites.com/images/blog/web-development-languages.png" alt="">
+                      </div>
+                      <div class="col-lg-8 lc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nostrum, mollitia dolor dolorem quidem sint fugit possimus sequi molestias praesentium.
+                      </div>
+                    </div>
+                    <div class="row serv">
+                      <div class="col-lg-4 lc">
+                        <img src="https://w7.pngwing.com/pngs/979/218/png-transparent-web-development-php-computer-icons-web-application-language-text-trademark-logo.png" alt="">
+                      </div>
+                      <div class="col-lg-8 lc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos aspernatur est saepe debitis itaque, eligendi veniam magni perferendis? Veniam, ex.
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-lg-12 footer">
+            <div class="row">
+                <div class="col-lg-4 f1">
+                    <h5><u>Social Media</u></h5>
+                    <hr>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, vel quis. Saepe voluptatem voluptatum cupiditate. Quasi itaque dignissimos, culpa tempore fuga nulla reiciendis. Velit, porro!
+                    <br>
+                    <i class="fa-brands fa-facebook fa-2x ficon"></i>
+                    <i class="fa-brands fa-google-plus-g fa-2x ficon"></i>
+                    <i class="fa-brands fa-twitter fa-2x ficon"></i>
+                </div>
+                <div class="col-lg-4 f2">
+                    <h5><u>Quick Links</u></h5>
+                    <hr>
+                    <p><a href="./about/ac.html">Our Comapany</a></p>
+                    <p><a href="./sm.html">Site Map</a></p>
+                    <p><a href="./pp.html">Privacy Policy</a></p>
+                    <p><a href="./services.html">Services</a></p>  
+                    <p><a href="">Client Portal</a></p>
+                </div>
+                <div class="col-lg-4 f3" id="cont-id">
+                    <h5><u>Contact Details</u></h5>
+                    <hr>
+                    <p><b>ADDRESS</b> : 3/898, Jankivihar, Lucknow - 226031</p>
+                    <p><b>Sales</b> : 4521632589</p>
+                    <p><b>Support</b> : 4521632589</p>
+                    <p><b>E-Mail</b> : <a href="mailto:xyz@gmail.com">xyz@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
